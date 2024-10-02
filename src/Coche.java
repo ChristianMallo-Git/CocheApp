@@ -80,33 +80,6 @@ public class Coche {
 			System.out.println("No se puede girar más \n");
 		}
 
-//		OTRA MANERA DE HACER ESTO
-//
-//		if ((grados + this.gradosFinales) <= 45) {
-//			if ((grados + this.gradosFinales) >= -45) {
-//				this.gradosFinales += grados;
-//			} else {
-//				System.out.println("No se puede girar más");
-//		} else {
-//			System.out.println("No se puede girar más");
-//		}
-
-//        OTRA MANERA DE HACERLO
-
-//	public int giroRueda (int grados) {
-//
-//		if (this.gradosFinales + grados == 45) {
-//			System.out.println("máximos grados de giro hacia la derecha");
-//		} else if (this.gradosFinales + grados == -45) {
-//			System.out.println("máximos grados de giro hacia la izquierda");
-//		} else {
-//			if (this.gradosFinales + grados <= 45 && this.gradosFinales >= -45) {
-//				this.gradosFinales = grados + this.gradosFinales;
-//			} else {
-//				System.out.println("grados máximos de giro alcanzados");
-//			}
-//		}
-//		return grados;
 	}
 
 	public String mostrargiro() {
